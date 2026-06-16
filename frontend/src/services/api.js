@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://atm-application-1jic-git-main-rabia-zakiyya-h-s-projects.vercel.app/api/atm";
+const API = "http://localhost:5000/api/atm";
 
 export const signup = (data) => {
   return axios.post(`${API}/signup`, data);
